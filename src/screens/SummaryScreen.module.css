@@ -1,0 +1,180 @@
+.screen {
+  padding: 8px 0 24px;
+}
+
+.monthRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.monthLabel {
+  font-size: 13px;
+  color: var(--text2);
+  flex-shrink: 0;
+}
+
+.monthSelect {
+  flex: 1;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.metric {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.metricLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text2);
+  margin-bottom: 6px;
+}
+
+.metricValue {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.metricSub {
+  font-size: 12px;
+  color: var(--text2);
+  margin-top: 3px;
+}
+
+.sectionTitle {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.catList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.catRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.catIcon {
+  font-size: 16px;
+  width: 24px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.catName {
+  font-size: 13px;
+  color: var(--text2);
+  width: 100px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.barWrap {
+  flex: 1;
+  height: 6px;
+  background: var(--surface2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+.catAmt {
+  font-size: 13px;
+  font-weight: 500;
+  min-width: 58px;
+  text-align: right;
+}
+
+.topList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topRow {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 0.5px solid var(--border);
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.topRow:active { background: var(--surface2); }
+
+.topIcon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.topBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.topName {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topDate {
+  font-size: 12px;
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+.topAmt {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.empty {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--text3);
+  font-size: 14px;
+}
+
+.emptyIcon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 12px;
+}
