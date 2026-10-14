@@ -25,5 +25,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/expense-tracker/'
+  base: '/expense-tracker-react/'
 })
